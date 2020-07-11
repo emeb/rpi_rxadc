@@ -1,6 +1,8 @@
 # rpi_rxadc
 An SDR for Raspberry Pi
 
+![Hardware Picture](documents/system_photo.jpg)
+
 ## What is it?
 This is a project to explore the feasibility of using an off-the shelf
 Raspberry Pi single-board computer (SBC) as the basis for an FPGA-based
@@ -45,13 +47,13 @@ protocol greatly simplifies the host-side software development effort.
 
 ## Hardware
 Read more about the hardware here:
-https://github.com/emeb/rpi_rxadc/tree/master/hardware
+https://github.com/emeb/rpi_rxadc/hardware/README.md
 
 ## Gateware
 Read more about the FPGA design (gateware) here:
-https://github.com/emeb/rpi_rxadc/tree/master/gateware
+https://github.com/emeb/rpi_rxadc/gateware/README.md
 
 ## Software
 Read more about the software design (gateware) here:
-https://github.com/emeb/rpi_rxadc/tree/master/software
+https://github.com/emeb/rpi_rxadc/software/README.md
 
