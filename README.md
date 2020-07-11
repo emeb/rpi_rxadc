@@ -45,7 +45,7 @@ protocol greatly simplifies the host-side software development effort.
 
 ## Hardware
 Read more about the hardware here:
-https://github.com/emeb/rpi_rxadc/hardware
+(/hardware)
 
 ## Gateware
 Read more about the FPGA design (gateware) here:
