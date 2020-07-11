@@ -45,13 +45,13 @@ protocol greatly simplifies the host-side software development effort.
 
 ## Hardware
 Read more about the hardware here:
-(/hardware)
+https://github.com/emeb/rpi_rxadc/tree/master/hardware
 
 ## Gateware
 Read more about the FPGA design (gateware) here:
-https://github.com/emeb/rpi_rxadc/gateware
+https://github.com/emeb/rpi_rxadc/tree/master/gateware
 
 ## Software
 Read more about the software design (gateware) here:
-https://github.com/emeb/rpi_rxadc/software
+https://github.com/emeb/rpi_rxadc/tree/master/software
 
