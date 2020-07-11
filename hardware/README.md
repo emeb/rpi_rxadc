@@ -3,6 +3,7 @@ Hardware for the RPi RXADC presently consists of the following:
 
 ## icehat
 https://github.com/emeb/icehat
+
 This is a small (RPi Zero sized) FPGA board that comprises a Lattice ICE40
 Ultra Plus 5k FPGA and several PMOD connectors. The board natively provides
 GPIO connections between the FPGA and the RPi SPI and I2S ports, but I've
@@ -11,6 +12,7 @@ support emulation of a WM8731 codec which is needed for the DSP interface.
 
 ## rxadc_14
 https://github.com/emeb/rxadc_14
+
 This is a dual-connector PMOD which provides a 14-bit ADC that can sample at
 up to 105MSPS. The input port for the ADC is transformer-coupled and matched
 for 50 ohm impedance. For this project I've configured it with a 50MHz
@@ -19,6 +21,7 @@ FPGA.
 
 ## r820t2
 https://github.com/emeb/r820t2
+
 This is a small breakout board for the Raphael R820T2 VHF/UHF front-end tuner
 chip. A 4-pin header provides the I2C port required to control the chip, as
 well as 5V power (about 200ma). This board extends the tuning range beyond
