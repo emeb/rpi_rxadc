@@ -22,4 +22,4 @@ entire design, synthesis and test process directly on the Raspberry Pi.
 ## Architecture
 A block diagram of the FPGA architecture is shown below:
 
-![FGPA Architecture](https://github.com/emeb/rpi_rxadc/tree/master/documents/fgpa_0.png)
+![FGPA Architecture](https://github.com/emeb/rpi_rxadc/blob/master/documents/fpga_0.png)
