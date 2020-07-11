@@ -9,9 +9,9 @@ of resources for a simple SDR downconverter that performs well.
 One of the primary enablers for this project is the excellent Open-Source
 FPGA toolchain provided by Symbiotic EDA and their Icestorm project:
 
-*https://www.symbioticeda.com/
-*https://github.com/YosysHQ
-*http://www.clifford.at/icestorm/
+* https://www.symbioticeda.com/
+* https://github.com/YosysHQ
+* http://www.clifford.at/icestorm/
 
 This suite of tools, consisting of synthesis, place & route and the chip
 databases for the Lattice ICE40 family of parts enables a comprehensive FPGA
