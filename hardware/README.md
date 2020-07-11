@@ -28,6 +28,12 @@ well as 5V power (about 200ma). This board extends the tuning range beyond
 the 0-20MHz HF band which is possible when the rxadc_14 board is used alone,
 providing additional coverage in the 50 - 1500 MHz range.
 
+## pdm_pmod
+
+This is a simple 6-pin PMOD with stereo low-pass filters and a TI headphone
+driver amplifier that's used to convert the PDM output of the FPGA into
+analog audio.
+
 ## Future Plans
 The goal is to integrate the three boards listed above, along with an Si5351
 clock source and some RF switching / filtering to provide a wide-coverage
