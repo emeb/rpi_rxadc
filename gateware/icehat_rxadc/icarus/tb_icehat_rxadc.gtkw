@@ -1,0 +1,183 @@
+[*]
+[*] GTKWave Analyzer v3.3.101 (w)1999-2019 BSI
+[*] Wed Jul  8 01:53:33 2020
+[*]
+[dumpfile] "/home/ericb/rpi/lattice/icehat_rxadc/icarus/tb_icehat_rxadc.vcd"
+[dumpfile_mtime] "Wed Jul  8 01:46:12 2020"
+[dumpfile_size] 306746517
+[savefile] "/home/ericb/rpi/lattice/icehat_rxadc/icarus/tb_icehat_rxadc.gtkw"
+[timestart] 0
+[size] 1366 852
+[pos] -1 -1
+*-30.252558 3270840000 5140000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_icehat_rxadc.
+[treeopen] tb_icehat_rxadc.uut.
+[treeopen] tb_icehat_rxadc.uut.u_ddc.u_tuner.
+[sst_width] 219
+[signals_width] 276
+[sst_expanded] 1
+[sst_vpaned_height] 200
+@200
+-TB
+@28
+tb_icehat_rxadc.ACK
+tb_icehat_rxadc.I2S_CLK
+tb_icehat_rxadc.I2S_DI
+tb_icehat_rxadc.I2S_FS
+@22
+tb_icehat_rxadc.P401[3:0]
+@28
+tb_icehat_rxadc.RGB0
+tb_icehat_rxadc.RGB1
+tb_icehat_rxadc.RGB2
+tb_icehat_rxadc.SCL
+tb_icehat_rxadc.SDA
+tb_icehat_rxadc.SPI_CE0
+tb_icehat_rxadc.SPI_MISO
+tb_icehat_rxadc.SPI_MOSI
+tb_icehat_rxadc.SPI_SCLK
+@22
+tb_icehat_rxadc.codec_dat[8:0]
+tb_icehat_rxadc.codec_reg[6:0]
+@28
+tb_icehat_rxadc.lpdm
+tb_icehat_rxadc.reset
+tb_icehat_rxadc.rpdm
+tb_icehat_rxadc.rxadc_clk
+@8420
+tb_icehat_rxadc.rxadc_dat[13:0]
+@28
+tb_icehat_rxadc.rxadc_pd
+tb_icehat_rxadc.start
+@22
+tb_icehat_rxadc.txaddr[6:0]
+@200
+-UUT
+@28
+tb_icehat_rxadc.uut.GPIO25_SS
+tb_icehat_rxadc.uut.I2S_CLK
+tb_icehat_rxadc.uut.I2S_DI
+tb_icehat_rxadc.uut.I2S_DO
+tb_icehat_rxadc.uut.I2S_FS
+@22
+tb_icehat_rxadc.uut.P401[3:0]
+@28
+tb_icehat_rxadc.uut.RGB0
+tb_icehat_rxadc.uut.RGB1
+tb_icehat_rxadc.uut.RGB2
+tb_icehat_rxadc.uut.RX
+tb_icehat_rxadc.uut.SCL
+tb_icehat_rxadc.uut.SDA
+tb_icehat_rxadc.uut.SPI_CE0
+tb_icehat_rxadc.uut.SPI_MISO
+tb_icehat_rxadc.uut.SPI_MOSI
+tb_icehat_rxadc.uut.SPI_SCLK
+tb_icehat_rxadc.uut.TP403
+tb_icehat_rxadc.uut.TX
+@22
+tb_icehat_rxadc.uut.addr[6:0]
+@28
+tb_icehat_rxadc.uut.audio_stb
+tb_icehat_rxadc.uut.clk
+tb_icehat_rxadc.uut.dac_load
+tb_icehat_rxadc.uut.dac_mux_sel
+tb_icehat_rxadc.uut.ddc_cic_shf[2:0]
+@22
+tb_icehat_rxadc.uut.ddc_frq[25:0]
+@8420
+tb_icehat_rxadc.uut.ddc_i[15:0]
+@28
+tb_icehat_rxadc.uut.ddc_ns_ena
+@8420
+tb_icehat_rxadc.uut.ddc_q[15:0]
+@28
+tb_icehat_rxadc.uut.ddc_v
+tb_icehat_rxadc.uut.dr[1:0]
+@22
+tb_icehat_rxadc.uut.i2c_data[15:0]
+@28
+tb_icehat_rxadc.uut.i2c_stb
+@22
+tb_icehat_rxadc.uut.l_out[15:0]
+tb_icehat_rxadc.uut.ldac[15:0]
+@28
+tb_icehat_rxadc.uut.lpdm
+@22
+tb_icehat_rxadc.uut.r_out[15:0]
+tb_icehat_rxadc.uut.rdac[15:0]
+tb_icehat_rxadc.uut.rdat[31:0]
+@28
+tb_icehat_rxadc.uut.re
+tb_icehat_rxadc.uut.reset
+@22
+tb_icehat_rxadc.uut.reset_cnt[8:0]
+@28
+tb_icehat_rxadc.uut.rpdm
+tb_icehat_rxadc.uut.rxadc_clk
+@22
+tb_icehat_rxadc.uut.rxadc_dat[13:0]
+tb_icehat_rxadc.uut.rxadc_dat_reg[13:0]
+@28
+tb_icehat_rxadc.uut.rxadc_pd
+@22
+tb_icehat_rxadc.uut.sathld[6:0]
+tb_icehat_rxadc.uut.spi_reg_01[31:0]
+tb_icehat_rxadc.uut.wdat[31:0]
+@28
+tb_icehat_rxadc.uut.we
+@200
+-codec
+@28
+tb_icehat_rxadc.uut.ucodec.I2S_BCLK
+tb_icehat_rxadc.uut.ucodec.I2S_DIN
+tb_icehat_rxadc.uut.ucodec.I2S_DOUT
+tb_icehat_rxadc.uut.ucodec.I2S_FS
+tb_icehat_rxadc.uut.ucodec.SCL
+tb_icehat_rxadc.uut.ucodec.SDA
+tb_icehat_rxadc.uut.ucodec.act
+tb_icehat_rxadc.uut.ucodec.adcpd
+@22
+tb_icehat_rxadc.uut.ucodec.addr[6:0]
+@28
+tb_icehat_rxadc.uut.ucodec.audio_stb
+tb_icehat_rxadc.uut.ucodec.bosr
+tb_icehat_rxadc.uut.ucodec.clk
+tb_icehat_rxadc.uut.ucodec.dacpd
+tb_icehat_rxadc.uut.ucodec.dr[1:0]
+@22
+tb_icehat_rxadc.uut.ucodec.gain[15:0]
+tb_icehat_rxadc.uut.ucodec.i2c_data[15:0]
+@28
+tb_icehat_rxadc.uut.ucodec.i2c_stb
+tb_icehat_rxadc.uut.ucodec.i2c_stb_d1
+tb_icehat_rxadc.uut.ucodec.i2c_stb_d2
+tb_icehat_rxadc.uut.ucodec.i2s_diag
+@8420
+tb_icehat_rxadc.uut.ucodec.l_in[15:0]
+tb_icehat_rxadc.uut.ucodec.l_out[15:0]
+tb_icehat_rxadc.uut.ucodec.l_rx[15:0]
+@22
+tb_icehat_rxadc.uut.ucodec.lhpvol[6:0]
+@28
+tb_icehat_rxadc.uut.ucodec.ms
+tb_icehat_rxadc.uut.ucodec.outena
+tb_icehat_rxadc.uut.ucodec.pwroff
+@8421
+tb_icehat_rxadc.uut.ucodec.r_in[15:0]
+tb_icehat_rxadc.uut.ucodec.r_out[15:0]
+tb_icehat_rxadc.uut.ucodec.r_pre[15:0]
+tb_icehat_rxadc.uut.ucodec.r_rx[15:0]
+@28
+tb_icehat_rxadc.uut.ucodec.reset
+@22
+tb_icehat_rxadc.uut.ucodec.rhpvol[6:0]
+tb_icehat_rxadc.uut.ucodec.scale[31:0]
+tb_icehat_rxadc.uut.ucodec.sr[3:0]
+@28
+tb_icehat_rxadc.uut.ucodec.usb
+tb_icehat_rxadc.uut.ucodec.valid
+@22
+tb_icehat_rxadc.uut.ucodec.vol_pipe[3:0]
+tb_icehat_rxadc.uut.ucodec.volsat[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

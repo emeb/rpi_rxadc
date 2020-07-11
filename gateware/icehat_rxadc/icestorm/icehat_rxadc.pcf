@@ -1,0 +1,63 @@
+# icehat pin definitions - UP5k SG48 package
+
+# I2C port on PMOD P401 bodged to RPi connector
+set_io SDA 2
+set_io SCL 47
+
+# serial on TP401, TP402 bodged to RPi connector
+set_io --warn-no-port RX 4
+set_io --warn-no-port TX 6
+
+# I2S master port on RPi connector; in/out names from RPi perspective
+set_io I2S_FS 9 
+set_io I2S_CLK 10 
+set_io I2S_DI 11
+set_io I2S_DO 12
+
+# SPI port for config & control
+set_io SPI_CE0 13
+set_io SPI_MISO 14
+set_io SPI_SCLK 15
+set_io GPIO25_SS 16
+set_io SPI_MOSI 17
+
+# unused testpoint
+set_io TP403 18
+
+# PMOD P403
+set_io rxadc_clk 20
+set_io rxadc_pd 19
+set_io rxadc_dat[13] 23
+set_io rxadc_dat[12] 21
+set_io rxadc_dat[11] 26
+set_io rxadc_dat[10] 25
+set_io rxadc_dat[9] 28
+set_io rxadc_dat[8] 27
+
+# PMOD P404
+set_io rxadc_dat[7] 31
+set_io rxadc_dat[6] 32
+set_io rxadc_dat[5] 34
+set_io rxadc_dat[4] 35
+set_io rxadc_dat[3] 36
+set_io rxadc_dat[2] 37
+set_io rxadc_dat[1] 38
+set_io rxadc_dat[0] 42
+
+# pdm outputs on P401
+set_io lpdm 3
+set_io rpdm 48
+
+# rest of PMOD P401
+set_io P401[0] 46
+set_io P401[1] 45
+set_io P401[2] 44
+set_io P401[3] 43
+
+# LED drivers - pins 39 and 41 seem to be swapped.
+# RGB0 drives pin 39 and RGB2 drives pin 41 regardless of what is
+# stated here
+set_io RGB0 39
+set_io RGB1 40
+set_io RGB2 41
+
